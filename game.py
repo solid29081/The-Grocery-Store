@@ -145,11 +145,11 @@ if budget <= 50:
   print(f"As you go ahead and scan your items, your total comes out to a number that's way above your budget! You try stealing the items, but get arrested.")
   print("Ending 1, Bad Ending.")
 
-if selections = 6:
+if selections == 6:
   print("Your total comes and you pay, When you get home and enjoy your groceries, you realize they taste bad and you throw them away.")
   print("Ending 2, Cheapskate Ending.")
 
-if selections = 5:
+if selections == 5:
   print("Your total comes and you pay, When you get home and enjoy your groceries, you realize they taste bad and you throw them away. Except for the candy bar, you liked that.")
   print("Secret Ending, 'At least I got the candy bar' ending.")
 else:
