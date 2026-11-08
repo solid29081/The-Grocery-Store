@@ -47,7 +47,7 @@ print(f"Which brand should {name} choose for apples?")
 print("1. Generic No-Name Brand Apples. $2")
 print("2. SUUUUUPER APPLE PRO DELUXES. $10")
 time.sleep(0.5)
-selection1 = input("Choose an option based off the number in front of the item.: ")
+selection1 = int(input("Choose an option based off the number in front of the item.: "))
 if selection1 == 1:
   budget -= 2
   points += 5
@@ -65,7 +65,7 @@ time.sleep(1)
 print(f"Which brand should {name} choose for bananas?")
 print("1. Generic No-Name Brand Bananas. $5, $1 per banana")
 print("2. BIG ULTRA MAXIMUM BANANAS. $20, $4 per banana")
-selection2 = input("Choose an option based off the number in front of the item.: ")
+selection2 = int(input("Choose an option based off the number in front of the item.: "))
 if selection2 == 1:
   budget -= 5
   points += 10
@@ -86,7 +86,7 @@ time.sleep(1)
 print(f"Which brand should {name} choose for steak?")
 print("1. Farmhouse Steak. $10")
 print("2. BIG, JUICY, CHEWY, STEAK. $100")
-selection3 = input("Choose an option based off the number in front of the item.: ")
+selection3 = int(input("Choose an option based off the number in front of the item.: "))
 if selection3 == 1:
   budget -= 10
   points += 20
@@ -107,7 +107,7 @@ time.sleep(1)
 print(f"Which brand should {name} choose for canned corn?")
 print("1. Generic Canned Corn. $2")
 print("2. Freshly Canned Corn. $5")
-selection4 = input("Choose an option based off the number in front of the item.: ")
+selection4 = int(input("Choose an option based off the number in front of the item.: "))
 if selection4 == 1:
   budget -= 2
   points += 2
@@ -128,7 +128,7 @@ time.sleep(1)
 print(f"Should {name} buy a candy bar or should he exit?")
 print("1. Buy the candy bar. $1")
 print("2. Exit")
-selection5 = input("Choose an option based off the number in front of the item.: ")
+selection5 = int(input("Choose an option based off the number in front of the item.: "))
 if selection5 == 1:
   budget -= 1
   points += 2
