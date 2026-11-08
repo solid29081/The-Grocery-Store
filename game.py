@@ -137,22 +137,26 @@ if selection5 == 2:
 
 time.sleep(1)
 
-selections = selection1 + selection2 + selection3 + selection4 + selection5
-
 print("You head to self check-out.")
 
 if budget >= 50:
   print(f"As you go ahead and scan your items, your total comes out to a number that's way above your budget! You try stealing the items, but get arrested.")
   print("Ending 1, Bad Ending.")
 
-if selections == 6:
-  if selection4 = 1:
-    print("Your total comes and you pay, When you get home and enjoy your groceries, you realize they taste bad and you throw them away.")
-    print("Ending 2, Cheapskate Ending.")
-
-if selections == 5:
-  print("Your total comes and you pay, When you get home and enjoy your groceries, you realize they taste bad and you throw them away. Except for the candy bar, you liked that.")
-  print("Secret Ending, 'At least I got the candy bar' ending.")
+if selection1 == 1:
+    if selection2 == 1:
+      if selection3 == 1:
+        if selection4 == 1:
+          if selection5 == 2:
+            print("Your total comes and you pay, When you get home and enjoy your groceries, you realize they taste bad and you throw them away.")
+            print("Ending 2, Cheapskate Ending.")
+if selection1 == 1:
+    if selection2 == 1:
+      if selection3 == 1:
+        if selection4 == 1:
+          if selection5 == 1:
+            print("Your total comes and you pay, When you get home and enjoy your groceries, you realize they taste bad and you throw them away. Except for the candy bar, you liked that.")
+            print("Secret Ending, 'At least I got the candy bar' ending.")
 else:
   print("Your total comes out and you pay, you enjoy your items.")
   print("Ending 3, Normal Ending")
