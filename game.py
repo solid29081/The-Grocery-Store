@@ -156,4 +156,8 @@ else:
   print("Your total comes out and you pay, you enjoy your items.")
   print("Ending 3, Normal Ending")
 
+print(f"Points earned: {points}")
+
+time.sleep(5)
+
 exit(0)
