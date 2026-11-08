@@ -146,8 +146,9 @@ if budget >= 50:
   print("Ending 1, Bad Ending.")
 
 if selections == 6:
-  print("Your total comes and you pay, When you get home and enjoy your groceries, you realize they taste bad and you throw them away.")
-  print("Ending 2, Cheapskate Ending.")
+  if selection4 = 1:
+    print("Your total comes and you pay, When you get home and enjoy your groceries, you realize they taste bad and you throw them away.")
+    print("Ending 2, Cheapskate Ending.")
 
 if selections == 5:
   print("Your total comes and you pay, When you get home and enjoy your groceries, you realize they taste bad and you throw them away. Except for the candy bar, you liked that.")
