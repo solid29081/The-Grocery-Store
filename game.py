@@ -141,7 +141,7 @@ selections = selection1 + selection2 + selection3 + selection4 + selection5
 
 print("You head to self check-out.")
 
-if budget <= 50:
+if budget >= 50:
   print(f"As you go ahead and scan your items, your total comes out to a number that's way above your budget! You try stealing the items, but get arrested.")
   print("Ending 1, Bad Ending.")
 
