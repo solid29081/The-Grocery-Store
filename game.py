@@ -16,12 +16,12 @@ print(f"Welcome to {game_name}")
 print(f"Version {ver}")
 print(f"This software is under the {license}")
 print(f"You can find the source-code, and more information at {ghub_link}")
-time.wait(5)
+time.sleep(5)
 print(f"Points: {points}")
 print(f"Items: {items}")
 print(f"Budget: {budget}")
 print(f"Selecting Name...")
-time.wait(0.5)
+time.sleep(0.5)
 name = input("What would you like to be called?: ")
 
 if name == None:
@@ -30,7 +30,7 @@ else:
   print(f"Nice name, {name}!")
   print("Game starts in 3 seconds...")
 
-time.wait(3)
+time.sleep(3)
 
 print(f"Points: {points}")
 print(f"Items: {items}")
@@ -38,15 +38,15 @@ print(f"Budget: {budget}")
 print(f"Name: {name}")
 print(None)
 print(f"{name} is heading to the store to get some groceries. He has a budget of $50, you can tell if you are going above or below budget from the budget text above.")
-time.wait(3)
+time.sleep(3)
 print(f"{name} needs these 5 things. Apples, Bananas, Steak, Canned Corn, and a little treat for himself.")
-time.wait(3)
+time.sleep(3)
 print(f"{name} decides to go to the Fruits and Vegetables section.")
-time.wait(1)
+time.sleep(1)
 print(f"Which brand should {name} choose for apples?")
 print("1. Generic No-Name Brand Apples. $2")
 print("2. SUUUUUPER APPLE PRO DELUXES. $10")
-time.wait(0.5)
+time.sleep(0.5)
 selection1 = input("Choose an option based off the number in front of the item.: ")
 if selection1 == 1:
   budget -= 2
@@ -55,13 +55,13 @@ if selection1 == 2:
   budget -= 10
   points += 13
 
-time.wait(1)
+time.sleep(1)
 
 print(f"Points: {points}")
 print(f"Items: {items}")
 print(f"Budget: {budget}")
 print(f"Name: {name}")
-time.wait(1)
+time.sleep(1)
 print(f"Which brand should {name} choose for bananas?")
 print("1. Generic No-Name Brand Bananas. $5, $1 per banana")
 print("2. BIG ULTRA MAXIMUM BANANAS. $20, $4 per banana")
@@ -73,7 +73,7 @@ if selection2 == 2:
   budget -= 20
   points += 40
 
-time.wait(1)
+time.sleep(1)
 
 print(f"Points: {points}")
 print(f"Items: {items}")
@@ -82,7 +82,7 @@ print(f"Name: {name}")
 
 print(f"{name} needs these 5 things. Apples, Bananas, Steak, Canned Corn, and a little treat for himself.")
 print(f"{name} decides to go to the Meats section.")
-time.wait(1)
+time.sleep(1)
 print(f"Which brand should {name} choose for steak?")
 print("1. Farmhouse Steak. $10")
 print("2. BIG, JUICY, CHEWY, STEAK. $100")
@@ -94,7 +94,7 @@ if selection3 == 2:
   budget -= 100
   points -= 100
 
-time.wait(1)
+time.sleep(1)
 
 print(f"Points: {points}")
 print(f"Items: {items}")
@@ -103,7 +103,7 @@ print(f"Name: {name}")
 
 print(f"{name} needs these 5 things. Apples, Bananas, Steak, Canned Corn, and a little treat for himself.")
 print(f"{name} decides to go to the Canned Foods section.")
-time.wait(1)
+time.sleep(1)
 print(f"Which brand should {name} choose for canned corn?")
 print("1. Generic Canned Corn. $2")
 print("2. Freshly Canned Corn. $5")
@@ -115,7 +115,7 @@ if selection4 == 2:
   budget -= 5
   points += 10
 
-time.wait(1)
+time.sleep(1)
 
 print(f"Points: {points}")
 print(f"Items: {items}")
@@ -124,7 +124,7 @@ print(f"Name: {name}")
 
 print(f"{name} needs these 5 things. Apples, Bananas, Steak, Canned Corn, and a little treat for himself.")
 print(f"{name} decides to go to the candy section.")
-time.wait(1)
+time.sleep(1)
 print(f"Should {name} buy a candy bar or should he exit?")
 print("1. Buy the candy bar. $1")
 print("2. Exit")
@@ -135,7 +135,7 @@ if selection5 == 1:
 if selection5 == 2:
   print(f"{name} skips getting the candy bar and heads to the exit.")
 
-time.wait(1)
+time.sleep(1)
 
 selections = selection1 + selection2 + selection3 + selection4 + selection5
 
