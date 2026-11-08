@@ -13,7 +13,7 @@ ghub_link = "https://github.com/solid29081/The-Grocery-Store/"
 
 # main game code
 print(f"Welcome to {game_name}")
-print(f"Version {ver}")
+print(f"Version {game_ver}")
 print(f"This software is under the {license}")
 print(f"You can find the source-code, and more information at {ghub_link}")
 time.sleep(5)
