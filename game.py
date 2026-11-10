@@ -8,7 +8,7 @@ name = None
 budget = 50
 # game identifiers
 game_name = "The Grocery Store"
-game_ver = 1.0
+game_ver = 1.1
 license = "GNU General Public License"
 ghub_link = "https://github.com/solid29081/The-Grocery-Store/"
 
