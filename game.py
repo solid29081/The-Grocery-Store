@@ -1,5 +1,6 @@
 # import shit
 import time
+import sys
 # set variables
 points = 0
 items = 0
@@ -139,25 +140,32 @@ time.sleep(1)
 
 print("You head to self check-out.")
 
-if budget >= 50:
+if budget <= 0:
   print(f"As you go ahead and scan your items, your total comes out to a number that's way above your budget! You try stealing the items, but get arrested.")
   print("Ending 1, Bad Ending.")
+  print(f"Points earned: {points}")
+  time.sleep(5)
+  sys.exit()
 
 if (selection1 == 1 and selection2 == 1 and selection3 == 1
   and selection4 == 1 and selection5 == 2):
             print("Your total comes and you pay, When you get home and enjoy your groceries, you realize they taste bad and you throw them away.")
             print("Ending 2, Cheapskate Ending.")
+            print(f"Points earned: {points}")
+            time.sleep(5)
+            sys.exit()
 
 elif (selection1 == 1 and selection2 == 1 and selection3 == 1
   and selection4 == 1 and selection5 == 1):
             print("Your total comes and you pay, When you get home and enjoy your groceries, you realize they taste bad and you throw them away. Except for the candy bar, you liked that.")
             print("Secret Ending, 'At least I got the candy bar' ending.")
+            print(f"Points earned: {points}")
+            time.sleep(5)
+            sys.exit()
 else:
   print("Your total comes out and you pay, you enjoy your items.")
   print("Ending 3, Normal Ending")
+  print(f"Points earned: {points}")
+  time.sleep(5)
+  sys.exit()
 
-print(f"Points earned: {points}")
-
-time.sleep(5)
-
-exit(0)
